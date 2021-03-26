@@ -22,7 +22,7 @@ function Server() {
     app.get('/', function(req, res) {
 
         // respond to this request with our fake-new content embedded within the BBC News home page
-        res.merge('fake-news', {
+        res.merge('metrika', {
             sourceUrl: 'https://projects.invisionapp.com/m/share/47TGZ0CP3EA#/392522592',                             // external url to fetch
             sourcePlaceholder: 'meta[name="robots"]'   // css selector to inject our content into
         });
