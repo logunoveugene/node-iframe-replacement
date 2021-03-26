@@ -23,8 +23,8 @@ function Server() {
 
         // respond to this request with our fake-new content embedded within the BBC News home page
         res.merge('fake-news', {
-            sourceUrl: 'http://www.bbc.co.uk/news',                             // external url to fetch
-            sourcePlaceholder: 'div[data-entityid="container-top-stories#1"]'   // css selector to inject our content into
+            sourceUrl: 'https://projects.invisionapp.com/m/share/47TGZ0CP3EA#/392522592',                             // external url to fetch
+            sourcePlaceholder: 'meta[name="robots"]'   // css selector to inject our content into
         });
     });
 
